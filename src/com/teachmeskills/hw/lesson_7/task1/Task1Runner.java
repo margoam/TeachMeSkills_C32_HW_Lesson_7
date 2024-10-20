@@ -16,20 +16,23 @@ public class Task1Runner {
 
         Scanner scanner = new Scanner(System.in);
 
+        Director director = new Director("Director");
+        Employee employee = new Employee("Employee");
+        Accountant accountant = new Accountant("Accountant");
+
+
+
         System.out.print("Please, enter a job code (Director - 1, Employee - 2, Accountant - 3): ");
         String userInput = scanner.nextLine();
 
         switch (userInput) {
             case "1":
-                Director director = new Director();
                 director.showJobDescription(director.jobTitle);
                 break;
             case "2":
-                Employee employee = new Employee();
                 employee.showJobDescription(employee.jobTitle);
                 break;
             case "3":
-                Accountant accountant = new Accountant();
                 accountant.showJobDescription(accountant.jobTitle);
                 break;
             default:

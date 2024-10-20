@@ -1,7 +1,8 @@
 package com.teachmeskills.hw.lesson_7.task1;
 
-public class Employee implements IJobDescription {
+public class Employee extends JobTitle implements IJobDescription {
 
-    String jobTitle = "Employee";
-
+    public Employee(String jobTitle) {
+        super(jobTitle);
+    }
 }
