@@ -22,15 +22,15 @@ public class Task1Runner {
         switch (userInput) {
             case "1":
                 Director director = new Director();
-                director.showJobDescription();
+                director.showJobDescription(director.jobTitle);
                 break;
             case "2":
                 Employee employee = new Employee();
-                employee.showJobDescription();
+                employee.showJobDescription(employee.jobTitle);
                 break;
             case "3":
                 Accountant accountant = new Accountant();
-                accountant.showJobDescription();
+                accountant.showJobDescription(accountant.jobTitle);
                 break;
             default:
                 System.out.println("Entered invalid job code.");

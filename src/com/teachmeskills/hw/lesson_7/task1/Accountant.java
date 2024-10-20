@@ -2,8 +2,6 @@ package com.teachmeskills.hw.lesson_7.task1;
 
 public class Accountant implements IJobDescription {
 
-    @Override
-    public void showJobDescription() {
-        System.out.println("Job title - Accountant");
-    }
+    String jobTitle = "Accountant";
+
 }
