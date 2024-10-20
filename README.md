@@ -1,7 +1,7 @@
 # TeachMeSkills_C32_HW_Lesson_7
 
 The following tasks are implemented:
-1) Create classes "Director," "Worker," and "Accountant."
+1) Create classes "Director," "Employee," and "Accountant."
 Implement an interface with a method that defines the behavior for displaying the job title on the screen.
 Implement this method in the created classes.
 Create a runner class with a main method to run the program.
