@@ -16,11 +16,9 @@ public class Task1Runner {
 
         Scanner scanner = new Scanner(System.in);
 
-        Director director = new Director("Director");
-        Employee employee = new Employee("Employee");
-        Accountant accountant = new Accountant("Accountant");
-
-
+        Director director = new Director();
+        Employee employee = new Employee();
+        Accountant accountant = new Accountant();
 
         System.out.print("Please, enter a job code (Director - 1, Employee - 2, Accountant - 3): ");
         String userInput = scanner.nextLine();
